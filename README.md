@@ -1,5 +1,7 @@
 # Invoice App
 
+See the [demo](https://dkublitskiy-invoiceapp.herokuapp.com/)
+
 ## API
 
 ### Customers
