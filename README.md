@@ -1,19 +1,4 @@
-# Dependencies
-
-- sqlite3
-- node
-- npm
-
 # Getting Started
-
-###### Install npm dependencies
-`npm install`
-
-###### Run the node server
-`node app.js`
-
-###### Viewing the application in your browser
-`http://localhost:8000`
 
 # Schema
 
@@ -70,5 +55,3 @@ GET|PUT|DELETE    /api/invoices/{id}
 GET|POST          /api/invoices/{id}/items
 GET|PUT|DELETE    /api/invoices/{invoice_id}/items/{id}
 ```
-
-
