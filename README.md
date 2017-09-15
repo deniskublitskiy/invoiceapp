@@ -1,58 +1,25 @@
 # Invoice App
 
-# Getting Started
+## API
 
-# Schema
-
-## Customers
-
-- id (integer)
-- name (string)
-- address (string)
-- phone (string)
-
-
-## Products
-
-- id (integer)
-- name (string)
-- price (decimal)
-
-## Invoices
-
-- id (integer)
-- customer_id (integer)
-- discount (decimal)
-- total (decimal)
-
-## InvoiceItems
-
-- id (integer)
-- invoice_id (integer)
-- product_id (integer)
-- quantity (decimal)
-
-
-# Resources
-
-## Customers
+### Customers
 ```
 GET|POST          /api/customers
 GET|PUT|DELETE    /api/customers/{id}
 ```
 
-## Products
+### Products
 ```
 GET|POST          /api/products
 GET|PUT|DELETE    /api/products/{id}
 ```
-## Invoices
+### Invoices
 ```
 GET|POST          /api/invoices
 GET|PUT|DELETE    /api/invoices/{id}
 ```
 
-## InvoiceItems
+### InvoiceItems
 ```
 GET|POST          /api/invoices/{id}/items
 GET|PUT|DELETE    /api/invoices/{invoice_id}/items/{id}
