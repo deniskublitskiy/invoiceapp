@@ -1,6 +1,6 @@
 # Invoice App
 
-See the [demo](https://dkublitskiy-invoiceapp.herokuapp.com/) deployed on
+See the [demo](https://dkublitskiy-invoiceapp.herokuapp.com/) deployed on Heroku
 
 ## API
 
